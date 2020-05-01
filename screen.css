@@ -11,7 +11,6 @@ background: -webkit-radial-gradient(center, ellipse cover,  #242464 0%,#000024 1
 background: -o-radial-gradient(center, ellipse cover,  #242464 0%,#000024 100%); /* Opera 12+ */
 background: -ms-radial-gradient(center, ellipse cover,  #242464 0%,#000024 100%); /* IE10+ */
 background: radial-gradient(ellipse at center,  #242464 0%,#000024 100%); /* W3C */
-background: #FFFFFF url(https://media.discordapp.net/attachments/676230395053867028/705535412302643331/unknown.png) left fixed !important;
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#242464', endColorstr='#000024',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 -webkit-transition: background 1000ms linear;
 }
