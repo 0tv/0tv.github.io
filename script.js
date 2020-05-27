@@ -1355,7 +1355,7 @@ Rect.prototype.contains = function(x, y) {
 ////////////////////////////////////////////////////////////////
 
 	var channel_id = decodeURIComponent(window.location.hash.substr(1)) || "lobby";
-	var gClient = new Client("ws://90.196.171.249:1234");
+	var gClient = new Client("ws://pianowo-mpp.onthewifi.com:1234");
 	gClient.setChannel(channel_id);
 	gClient.start();
 
