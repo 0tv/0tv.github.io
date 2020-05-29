@@ -249,3 +249,75 @@ table { border: 0; padding: 0; margin: 0; }
 100% { -ms-transform: rotate(360deg);}
 }
  
+.ugly-button {
+    -webkit-border-radius: 0;
+    display: inline-block;
+    background: transparent;
+    border-color: transparent;
+
+}
+#room {
+    background: rgba(255,255,255,0.14);
+    border-color: transparent;
+}
+#room .expand {
+    background: rgba(0,0,0,0);
+    overflow: hidden;
+}
+
+#room .more {
+    border-color: transparent;
+    background-color: rgba(0,0,0,0.36);
+    max-height: 100000%;
+    height: 3500%;
+    -webkit-size: 200%;
+}
+#names .name {
+    -webkit-border-radius: 0px;
+    text-shadow: none;
+}
+#chat li {
+    text-shadow: none;
+    text-emphasis-color: : white;
+}
+
+#room .more .new {
+    border-color: transparent;
+    background-color: rgba(0,0,0,0);
+}
+
+#room .info.lobby {
+    color: #7ecaff;
+}
+#room .more .info:hover {
+    background: rgba(255,255,255,0.28);
+}
+
+
+.notification.classic .notification-body {
+    -webkit-border-radius: 0px;
+    background: rgba(0,0,0,0.62);
+}
+h1 {
+    color: white;
+    text-shadow: transparent;;
+}
+.title {
+    color: white;
+}
+.enabled {
+}
+#chat input {
+    border-color: transparent;
+    
+}
+li {
+    font-size: 14px;
+    background: rgba(0,0,0,0.05)
+}
+.chatting .translate {
+    border-color: transparent;
+}
+li {
+    color: red;
+}
