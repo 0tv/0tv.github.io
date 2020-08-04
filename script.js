@@ -1356,11 +1356,11 @@ Rect.prototype.contains = function(x, y) {
 
 	var channel_id = decodeURIComponent(window.location.hash.substr(1)) || "lobby";
 	if(channel_id.includes('p1235')) {
-		var gClient = new Client("wss://pianowo-mpp.onthewifi.com:1235");
+		var gClient = new Client("ws://pianowo-mpp.onthewifi.com:1235");
 	} else {
-		var gClient = new Client("wss://pianowo-mpp.onthewifi.com:1234");
+		var gClient = new Client("ws://pianowo-mpp.onthewifi.com:1234");
 	}
-	
+	// oof
 	channel_id = channel_id.replace('p1235', '')
 	
 	gClient.setChannel(channel_id);
