@@ -1355,7 +1355,14 @@ Rect.prototype.contains = function(x, y) {
 ////////////////////////////////////////////////////////////////
 
 	var channel_id = decodeURIComponent(window.location.hash.substr(1)) || "lobby";
-	var gClient = new Client("ws://pianowo-mpp.onthewifi.com:1234");
+	if(channel_id.includes('p1235')) {
+		var gClient = new Client("wss://pianowo-mpp.onthewifi.com:1235");
+	} else {
+		var gClient = new Client("wss://pianowo-mpp.onthewifi.com:1234");
+	}
+	
+	channel_id = channel_id.replace('p1235', '')
+	
 	gClient.setChannel(channel_id);
 	gClient.start();
 
@@ -1368,9 +1375,9 @@ Rect.prototype.contains = function(x, y) {
 		gClient.on("count", function(count) {
 			if(count > 0) {
 				$("#status").html('<span class="number">'+count+'</span> '+(count==1? 'person is' : 'people are')+' playing');
-				document.title = "Piano (" + count + ")";
+				document.title = "owo (" + count + ")";
 			} else {
-				document.title = "Multiplayer Piano";
+				document.title = "Pianowo MPP";
 			}
 		});
 	})();
