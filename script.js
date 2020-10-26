@@ -1356,7 +1356,7 @@ Rect.prototype.contains = function(x, y) {
 
 	var channel_id = decodeURIComponent(window.location.hash.substr(1)) || "lobby";
 	if(channel_id.includes('p1235')) {
-		var gClient = new Client("ws://pianowo-mpp.onthewifi.com:1235");
+		var gClient = new Client("wss://functional-platinum-link.glitch.me");
 	} else {
 		var gClient = new Client("ws://pianowo-mpp.onthewifi.com:1234");
 	}
