@@ -1358,7 +1358,7 @@ Rect.prototype.contains = function(x, y) {
 	if(channel_id.includes('p1235')) {
 		var gClient = new Client("wss://functional-platinum-link.glitch.me");
 	} else {
-		var gClient = new Client("ws://pianowo-mpp.onthewifi.com:1234");
+		var gClient = new Client("wss://functional-platinum-link.glitch.me");
 	}
 	// oof
 	channel_id = channel_id.replace('p1235', '')
