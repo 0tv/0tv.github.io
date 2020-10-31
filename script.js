@@ -1354,11 +1354,17 @@ Rect.prototype.contains = function(x, y) {
 
 ////////////////////////////////////////////////////////////////
 
+	/*
+		MPP.client.uri = "wss://HatefulVerticalGroupware.pianowompp.repl.co";
+		MPP.client.stop();
+		MPP.client.start();
+	*/
+	
 	var channel_id = decodeURIComponent(window.location.hash.substr(1)) || "lobby";
-	if(channel_id.includes('p1235')) {
-		var gClient = new Client("wss://functional-platinum-link.glitch.me");
+	if(channel_id.includes('supersecretinfo')) {
+		var gClient = new Client("ws://localhost:2048");
 	} else {
-		var gClient = new Client("wss://functional-platinum-link.glitch.me");
+		var gClient = new Client("wss://HatefulVerticalGroupware.pianowompp.repl.co");
 	}
 	// oof
 	channel_id = channel_id.replace('p1235', '')
