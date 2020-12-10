@@ -1364,7 +1364,7 @@ Rect.prototype.contains = function(x, y) {
 	if(channel_id.includes('supersecretinfo')) {
 		var gClient = new Client("ws://localhost:2048");
 	} else {
-		var gClient = new Client("wss://HatefulVerticalGroupware.pianowompp.repl.co");
+		var gClient = new Client("wss://test-mpp-server.glitch.me/");
 	}
 	// oof
 	channel_id = channel_id.replace('p1235', '')
