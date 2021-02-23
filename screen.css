@@ -33,6 +33,9 @@ table { border: 0; padding: 0; margin: 0; }
 #names .name.muted-notes:after { content: "MUTE"; position: absolute; top: -4px; right: 50%; font-size: 8px; }
 #names .name.muted-lines { color: #f88; }
 #names .name.muted-lines:after { content: "MUTE"; position: absolute; top: -4px; right: 50%; font-size: 8px; }
+.ugly-button {
+    background-color: rgb(28,28,28);
+}
 #names .name.muted-chat { color: #f88; }
 #names .name.muted-chat:after { content: "MUTE"; position: absolute; top: -4px; right: 50%; font-size: 8px; }
 
