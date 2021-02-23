@@ -248,76 +248,23 @@ table { border: 0; padding: 0; margin: 0; }
 0% { -ms-transform: rotate(0deg);}
 100% { -ms-transform: rotate(360deg);}
 }
- 
-.ugly-button {
-    -webkit-border-radius: 0;
-    display: inline-block;
-    background: transparent;
-    border-color: transparent;
-
-}
-#room {
-    background: rgba(255,255,255,0.14);
-    border-color: transparent;
-}
-#room .expand {
-    background: rgba(0,0,0,0);
-    overflow: hidden;
-}
-
-#room .more {
-    border-color: transparent;
-    background-color: rgba(0,0,0,0.36);
-    max-height: 100000%;
-    height: 3500%;
-    -webkit-size: 200%;
-}
-#names .name {
-    -webkit-border-radius: 0px;
-    text-shadow: none;
-}
-#chat li {
-    text-shadow: none;
-    text-emphasis-color: : white;
-}
-
-#room .more .new {
-    border-color: transparent;
-    background-color: rgba(0,0,0,0);
-}
-
-#room .info.lobby {
-    color: #7ecaff;
-}
-#room .more .info:hover {
-    background: rgba(255,255,255,0.28);
-}
-
-
-.notification.classic .notification-body {
-    -webkit-border-radius: 0px;
-    background: rgba(0,0,0,0.62);
-}
-h1 {
-    color: white;
-    text-shadow: transparent;;
-}
-.title {
-    color: white;
-}
-.enabled {
-}
-#chat input {
-    border-color: transparent;
-    
-}
-li {
-    font-size: 14px;
-    background: rgba(0,0,0,0.05)
-}
-.chatting .translate {
-    border-color: transparent;
-}
-li {
-    color: red;
-}
+ *{font-family:Segoe UI}
+#bottom{background-color:rgba(17,17,18,0.34)!important}
+#chat input{border-color:transparent;text-shadow:none}
+#chat input:focus{border-color:transparent}
+#chat input::-webkit-input-placeholder{color:#fff}
+#chat.chatting{border-color:transparent;box-shadow:none;background:transparent}
+.ugly-button{padding-right:14px;padding-top:11px;margin-top:-3px;border-color:transparent;font-size:13px;transition-duration:.2s}
+.ugly-button:hover{margin-top:-6px;z-index:9999999}
+#room{padding-right:54px;margin-left:0;margin-top:1px;padding-top:10px;border-color:transparent;background-color:#101213}
+#room .expand{margin-top:88px}
+#room > .info{font-size:15px;text-shadow:none}
+#status{font-family:Segoe UI Light;font-size:15px}
+#status .number{font-family:Segoe UI Semibold;font-size:20px;line-height:35px}
+#names .name{font-family:Segoe UI Semibold;text-shadow:0 1px rgba(0,0,0,0.17);padding:4px;margin:1px}
+#room .more{border-color:transparent;text-shadow:none}
+#room .more > div{transition-duration:.2s}
+#room .more > div:hover{padding-top:8px;padding-bottom:8px;font-size:.5rem}
+.participant-menu *{text-shadow:none;transition-duration:.2s}
+.participant-menu .info:hover{text-shadow:none;background-color:rgba(255,255,255,0.26);font-size:.4rem}
+.participant-menu .menu-item:hover{text-shadow:none;background-color:rgba(255,255,255,0.26)!important;font-size:.5rem}
