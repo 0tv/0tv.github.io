@@ -33,9 +33,6 @@ table { border: 0; padding: 0; margin: 0; }
 #names .name.muted-notes:after { content: "MUTE"; position: absolute; top: -4px; right: 50%; font-size: 8px; }
 #names .name.muted-lines { color: #f88; }
 #names .name.muted-lines:after { content: "MUTE"; position: absolute; top: -4px; right: 50%; font-size: 8px; }
-.ugly-button {
-    background-color: rgb(28,28,28);
-}
 #names .name.muted-chat { color: #f88; }
 #names .name.muted-chat:after { content: "MUTE"; position: absolute; top: -4px; right: 50%; font-size: 8px; }
 
@@ -257,7 +254,7 @@ table { border: 0; padding: 0; margin: 0; }
 #chat input:focus{border-color:transparent}
 #chat input::-webkit-input-placeholder{color:#fff}
 #chat.chatting{border-color:transparent;box-shadow:none;background:transparent}
-.ugly-button{padding-right:14px;padding-top:11px;margin-top:-3px;border-color:transparent;font-size:13px;transition-duration:.2s}
+.ugly-button{background-color: rgb(35,35,35);padding-right:14px;padding-top:11px;margin-top:-3px;border-color:transparent;font-size:13px;transition-duration:.2s}
 .ugly-button:hover{margin-top:-6px;z-index:9999999}
 #room{padding-right:54px;margin-left:0;margin-top:1px;padding-top:10px;border-color:transparent;background-color:#101213}
 #room .expand{margin-top:88px}
